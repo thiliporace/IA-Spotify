@@ -1,16 +1,439 @@
-track,artist,popularity,genres
-Desabafo / Deixa Eu Dizer,"Marcelo D2, Claudia",64,"['boom bap brasileiro', 'brazilian hip hop', 'brazilian rock', 'rap nacional antigo']"
-Zorro do Asfalto,Hungria,65,['mpb']
-Act A Fool,Ludacris,63,"['brazilian hip hop', 'rap df', 'sertanejo universitario']"
-"Tokyo Drift (Fast & Furious) - From ""The Fast And The Furious: Tokyo Drift"" Soundtrack",Teriyaki Boyz,69,"['atl hip hop', 'dance pop', 'dirty south rap', 'hip hop', 'old school atlanta hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']"
-Six Days - Remix,"DJ Shadow, Mos Def",66,['japanese old school hip hop']
-Do I Wanna Know?,Arctic Monkeys,84,"['downtempo', 'electronica', 'instrumental hip hop', 'trip hop']"
-Get Low,"Lil Jon & The East Side Boyz, Ying Yang Twins",73,"['conscious hip hop', 'east coast hip hop', 'hip hop']"
-We Own It (Fast & Furious),"2 Chainz, Wiz Khalifa",61,"['garage rock', 'modern rock', 'permanent wave', 'rock', 'sheffield indie']"
-Bandoleros,"Don Omar, Tego Calderón",69,"['atl hip hop', 'atlanta bass', 'crunk', 'dirty south rap', 'old school atlanta hip hop', 'southern hip hop']"
-Danza Kuduro,"Don Omar, Lucenzo",80,"['atl hip hop', 'crunk', 'dirty south rap', 'old school atlanta hip hop', 'southern hip hop']"
-Riders On The Storm - Fredwreck Remix,"Snoop Dogg, The Doors",63,"['atl hip hop', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']"
-Still D.R.E.,"Dr. Dre, Snoop Dogg",81,"['hip hop', 'pittsburgh rap', 'pop rap', 'rap', 'southern hip hop', 'trap']"
-Ooh Ahh (My Life Be Like) [feat. Tobymac],"Grits, TobyMac",69,"['latin hip hop', 'puerto rican pop', 'reggaeton', 'trap latino', 'urbano latino']"
-Till I Collapse,"Eminem, Nate Dogg",82,"['latin hip hop', 'rap boricua', 'reggaeton', 'trap latino', 'urbano latino']"
-In Da Club,50 Cent,81,"['latin hip hop', 'puerto rican pop', 'reggaeton', 'trap latino', 'urbano latino']"
+track,artist,genres,followers,popularity,year
+The Emptiness Machine,Linkin Park,"['alternative metal', 'nu metal', 'post-grunge', 'rap metal', 'rock']",27278789,91,2024
+Iris,The Goo Goo Dolls,"['neo mellow', 'permanent wave', 'pop rock', 'post-grunge']",2953155,87,1998
+Every Breath You Take,The Police,"['album rock', 'classic rock', 'permanent wave', 'rock']",6446644,86,1983
+Highway to Hell,AC/DC,"['australian rock', 'hard rock', 'rock']",29658710,84,1979
+Sweet Child O' Mine,Guns N' Roses,"['glam metal', 'hard rock', 'rock']",32058569,84,1987
+Seven Nation Army,The White Stripes,"['alternative rock', 'blues rock', 'detroit rock', 'garage rock', 'modern blues rock', 'permanent wave', 'punk blues', 'rock']",3239030,82,2003
+Numb,Linkin Park,"['alternative metal', 'nu metal', 'post-grunge', 'rap metal', 'rock']",27278789,88,2003
+Creep,Radiohead,"['alternative rock', 'art rock', 'melancholia', 'oxford indie', 'permanent wave', 'rock']",10738634,86,1993
+Thunderstruck,AC/DC,"['australian rock', 'hard rock', 'rock']",29658710,83,1990
+"Paint It, Black",The Rolling Stones,"['album rock', 'british invasion', 'classic rock', 'rock']",14553370,82,1966
+Welcome To The Jungle,Guns N' Roses,"['glam metal', 'hard rock', 'rock']",32058569,80,1987
+In the End,Linkin Park,"['alternative metal', 'nu metal', 'post-grunge', 'rap metal', 'rock']",27278789,87,2000
+Enter Sandman,Metallica,"['hard rock', 'metal', 'old school thrash', 'rock', 'thrash metal']",28764756,80,1991
+Back In Black,AC/DC,"['australian rock', 'hard rock', 'rock']",29658710,83,1980
+Dream On,Aerosmith,"['album rock', 'classic rock', 'hard rock', 'rock']",14721738,80,1973
+Heart-Shaped Box,Nirvana,"['grunge', 'permanent wave', 'rock']",20562597,79,1993
+Paradise City,Guns N' Roses,"['glam metal', 'hard rock', 'rock']",32058569,78,1987
+La Grange (2005 Remaster),ZZ Top,"['album rock', 'blues rock', 'classic rock', 'hard rock', 'rock']",4511642,78,1973
+T.N.T.,AC/DC,"['australian rock', 'hard rock', 'rock']",29658710,78,1976
+Nothing Else Matters,Metallica,"['hard rock', 'metal', 'old school thrash', 'rock', 'thrash metal']",28764756,78,1991
+Losing My Religion,R.E.M.,"['alternative rock', 'athens indie', 'permanent wave', 'rock']",4755551,82,1991
+Everlong,Foo Fighters,"['alternative metal', 'alternative rock', 'modern rock', 'permanent wave', 'post-grunge', 'rock']",12093941,81,1997
+November Rain,Guns N' Roses,"['glam metal', 'hard rock', 'rock']",32058569,77,1991
+You Shook Me All Night Long,AC/DC,"['australian rock', 'hard rock', 'rock']",29658710,83,1980
+Another One Bites The Dust - Remastered 2011,Queen,"['classic rock', 'glam rock', 'rock']",51670019,81,1980
+Faint,Linkin Park,"['alternative metal', 'nu metal', 'post-grunge', 'rap metal', 'rock']",27278789,85,2003
+Toxicity,System Of A Down,"['alternative metal', 'nu metal', 'rap metal', 'rock']",11536253,83,2001
+Knockin' On Heaven's Door,Guns N' Roses,"['glam metal', 'hard rock', 'rock']",32058569,77,1991
+The Pretender,Foo Fighters,"['alternative metal', 'alternative rock', 'modern rock', 'permanent wave', 'post-grunge', 'rock']",12093941,76,2007
+We Will Rock You - Remastered 2011,Queen,"['classic rock', 'glam rock', 'rock']",51670019,78,1977
+Heavy Is the Crown,Linkin Park,"['alternative metal', 'nu metal', 'post-grunge', 'rap metal', 'rock']",27278789,87,2024
+All The Small Things,blink-182,"['alternative metal', 'modern rock', 'pop punk', 'punk', 'rock', 'socal pop punk']",8571859,81,1999
+Chop Suey!,System Of A Down,"['alternative metal', 'nu metal', 'rap metal', 'rock']",11536253,83,2001
+About A Girl,Nirvana,"['grunge', 'permanent wave', 'rock']",20562597,78,1989
+Californication,Red Hot Chili Peppers,"['alternative rock', 'funk metal', 'funk rock', 'permanent wave', 'rock']",21498008,82,1999
+Stairway to Heaven - Remaster,Led Zeppelin,"['album rock', 'classic rock', 'hard rock', 'rock']",14766700,76,1971
+One Step Closer,Linkin Park,"['alternative metal', 'nu metal', 'post-grunge', 'rap metal', 'rock']",27278789,83,2000
+Bring Me To Life,Evanescence,['alternative metal'],4836989,83,2003
+Even Flow,Pearl Jam,"['alternative metal', 'alternative rock', 'classic rock', 'grunge', 'hard rock', 'permanent wave', 'rock']",9103340,77,1991
+How You Remind Me,Nickelback,"['alternative metal', 'canadian rock', 'post-grunge']",7125208,83,2001
+Sharp Dressed Man (2008 Remaster),ZZ Top,"['album rock', 'blues rock', 'classic rock', 'hard rock', 'rock']",4511642,75,1983
+Throne,Bring Me The Horizon,"['melodic metalcore', 'metalcore', 'modern rock', 'rock', 'uk metalcore']",5953158,77,2015
+(I Can't Get No) Satisfaction - Mono Version,The Rolling Stones,"['album rock', 'british invasion', 'classic rock', 'rock']",14553370,76,1965
+Don't Cry (Original),Guns N' Roses,"['glam metal', 'hard rock', 'rock']",32058569,75,1991
+Can't Stop,Red Hot Chili Peppers,"['alternative rock', 'funk metal', 'funk rock', 'permanent wave', 'rock']",21498008,82,2002
+The Kids Aren't Alright,The Offspring,"['alternative metal', 'permanent wave', 'post-grunge', 'punk', 'rock', 'skate punk', 'socal pop punk']",5874814,81,1998
+Immigrant Song - Remaster,Led Zeppelin,"['album rock', 'classic rock', 'hard rock', 'rock']",14766700,75,1970
+Hells Bells,AC/DC,"['australian rock', 'hard rock', 'rock']",29658710,74,1980
+Bohemian Rhapsody - Remastered 2011,Queen,"['classic rock', 'glam rock', 'rock']",51670019,78,1975
+Start Me Up - Remastered 2009,The Rolling Stones,"['album rock', 'british invasion', 'classic rock', 'rock']",14553370,76,1981
+Sweater Weather,The Neighbourhood,"['modern alternative rock', 'modern rock', 'pop']",18275402,68,2013
+The Night We Met,Lord Huron,"['indie folk', 'stomp and holler']",1744395,88,2015
+Riptide,Vance Joy,"['folk-pop', 'modern rock']",3182975,84,2014
+I Wanna Be Yours,Arctic Monkeys,"['garage rock', 'modern rock', 'permanent wave', 'rock', 'sheffield indie']",27044299,90,2013
+Cruel Summer,Taylor Swift,['pop'],124518641,89,2019
+Night Changes,One Direction,"['boy band', 'pop', 'post-teen pop', 'talent show']",37185510,89,2014
+See You Again (feat. Kali Uchis),"Tyler, The Creator, Kali Uchis","['hip hop', 'rap']",16893019,89,2017
+Blinding Lights,The Weeknd,['colombian pop'],8001665,87,2020
+Apocalypse,Cigarettes After Sex,"['canadian contemporary r&b', 'canadian pop', 'pop']",93306180,87,2017
+Pink + White,Frank Ocean,"['ambient pop', 'dream pop', 'el paso indie', 'shoegaze']",13142912,87,2016
+I Love You So,The Walters,"['lgbtq+ hip hop', 'neo soul']",15949892,87,2014
+Story of My Life,One Direction,"['chicago indie', 'pov: indie']",816045,87,2013
+Starboy,"The Weeknd, Daft Punk","['boy band', 'pop', 'post-teen pop', 'talent show']",37185510,87,2016
+Something Just Like This,"The Chainsmokers, Coldplay","['canadian contemporary r&b', 'canadian pop', 'pop']",93306180,87,2017
+we fell in love in october,girl in red,"['electro', 'filter house', 'rock']",10215825,86,2018
+lovely (with Khalid),"Billie Eilish, Khalid",['pop'],20561890,86,2018
+Someone You Loved,Lewis Capaldi,"['permanent wave', 'pop']",54264946,86,2019
+A Sky Full of Stars,Coldplay,"['bedroom pop', 'indie pop', 'norwegian indie', 'pov: indie']",7628855,86,2014
+That's What I Like,Bruno Mars,"['art pop', 'pop']",101256898,86,2016
+goosebumps,Travis Scott,"['pop', 'pop r&b']",16394561,86,2016
+Lovers Rock,TV Girl,"['pop', 'uk pop']",12908306,86,2014
+Believer,Imagine Dragons,"['permanent wave', 'pop']",54264946,85,2017
+Shape of You,Ed Sheeran,"['dance pop', 'pop']",60992125,85,2017
+Dark Red,Steve Lacy,"['rap', 'slap house']",33936597,85,2017
+All The Stars (with SZA),"Kendrick Lamar, SZA",['pov: indie'],8236392,85,2018
+One Dance,"Drake, Wizkid, Kyla","['modern rock', 'pop', 'rock']",54991082,85,2016
+Dandelions,Ruth B.,"['pop', 'singer-songwriter pop', 'uk pop']",116764798,85,2017
+Sure Thing,Miguel,['afrofuturism'],5212312,85,2010
+Perfect,Ed Sheeran,"['conscious hip hop', 'hip hop', 'rap', 'west coast rap']",33711454,85,2017
+HIGHEST IN THE ROOM,Travis Scott,"['pop', 'r&b', 'rap']",23878271,85,2019
+Disco,Surf Curse,"['canadian hip hop', 'canadian pop', 'hip hop', 'pop rap', 'rap']",92897778,85,2019
+Counting Stars,OneRepublic,"['afrobeats', 'afropop', 'azonto', 'nigerian hip hop', 'nigerian pop']",6208982,85,2013
+Unforgettable,"French Montana, Swae Lee",['uk funky'],32665,85,2017
+Revenge,XXXTENTACION,"['alt z', 'canadian contemporary r&b', 'canadian pop', 'pop']",3769906,85,2017
+Evergreen,Richy Mitch & The Coal Miners,"['r&b', 'urban contemporary']",5339675,85,2017
+What Makes You Beautiful,One Direction,"['pop', 'singer-songwriter pop', 'uk pop']",116764798,85,2012
+Say You Won't Let Go,James Arthur,"['rap', 'slap house']",33936597,84,2016
+Why'd You Only Call Me When You're High?,Arctic Monkeys,"['dreamo', 'indie surf', 'pov: indie', 'surf punk', 'vegas indie']",1345121,84,2013
+Give Me Everything (feat. Nayer),"Pitbull, AFROJACK, Ne-Yo, Nayer","['piano rock', 'pop']",17557059,84,2011
+Iris,The Goo Goo Dolls,"['neo mellow', 'permanent wave', 'pop rock', 'post-grunge']",2953155,87,1998
+Blinding Lights,The Weeknd,"['canadian contemporary r&b', 'canadian pop', 'pop']",93306180,87,2020
+Creep,Radiohead,"['alternative rock', 'art rock', 'melancholia', 'oxford indie', 'permanent wave', 'rock']",10738634,86,1993
+Gangsta's Paradise,"Coolio, L.V.","['g funk', 'gangster rap', 'hip hop', 'west coast rap']",1262713,85,1995
+Linger,The Cranberries,[],40877,84,1993
+Thunderstruck,AC/DC,"['irish rock', 'pop rock', 'rock']",4584881,83,1990
+Kiss Me,Sixpence None The Richer,"['australian rock', 'hard rock', 'rock']",29658710,83,1997
+I Want It That Way,Backstreet Boys,"['lilith', 'pop rock']",601248,83,1999
+Chop Suey!,System Of A Down,"['boy band', 'dance pop', 'pop']",5945126,83,2001
+Scar Tissue,Red Hot Chili Peppers,"['alternative metal', 'nu metal', 'rap metal', 'rock']",11536253,83,1999
+Losing My Religion,R.E.M.,"['alternative rock', 'funk metal', 'funk rock', 'permanent wave', 'rock']",21498008,82,1991
+Fade Into You,Mazzy Star,"['alternative rock', 'athens indie', 'permanent wave', 'rock']",4755551,82,1993
+No Scrubs,TLC,"['dream pop', 'melancholia', 'shoegaze', 'slowcore']",1429321,82,1999
+Zombie,The Cranberries,"['atl hip hop', 'contemporary r&b', 'dance pop', 'girl group', 'hip pop', 'r&b', 'urban contemporary']",4133979,82,1994
+Toxicity,System Of A Down,"['irish rock', 'pop rock', 'rock']",4584881,83,2001
+Californication,Red Hot Chili Peppers,"['alternative metal', 'nu metal', 'rap metal', 'rock']",11536253,82,1999
+No Surprises,Radiohead,"['alternative rock', 'funk metal', 'funk rock', 'permanent wave', 'rock']",21498008,82,1997
+Good Riddance (Time of Your Life),Green Day,"['alternative rock', 'art rock', 'melancholia', 'oxford indie', 'permanent wave', 'rock']",10738634,81,1997
+Everlong,Foo Fighters,"['modern rock', 'permanent wave', 'punk', 'rock']",15612062,81,1997
+...Baby One More Time,Britney Spears,"['alternative metal', 'alternative rock', 'modern rock', 'permanent wave', 'post-grunge', 'rock']",12093941,81,1999
+All The Small Things,blink-182,"['dance pop', 'pop']",15415374,81,1999
+Still D.R.E.,"Dr. Dre, Snoop Dogg","['alternative metal', 'modern rock', 'pop punk', 'punk', 'rock', 'socal pop punk']",8571859,81,1999
+The Kids Aren't Alright,The Offspring,"['g funk', 'gangster rap', 'hip hop', 'rap', 'west coast rap']",12622630,81,1998
+Under the Bridge,Red Hot Chili Peppers,"['g funk', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'west coast rap']",12760650,80,1991
+Break Stuff,Limp Bizkit,"['alternative metal', 'permanent wave', 'post-grunge', 'punk', 'rock', 'skate punk', 'socal pop punk']",5874814,80,1999
+Hit 'Em Up - Single Version,"2Pac, Outlawz","['alternative rock', 'funk metal', 'funk rock', 'permanent wave', 'rock']",21498008,80,1998
+Big Poppa - 2005 Remaster,The Notorious B.I.G.,"['alternative metal', 'funk metal', 'nu metal', 'post-grunge', 'rap metal', 'rock']",6461824,80,1994
+Torn,Natalie Imbruglia,"['g funk', 'gangster rap', 'hip hop', 'rap', 'west coast rap']",19322036,80,1997
+Wannabe,Spice Girls,['gangster rap'],317944,80,1996
+Enter Sandman,Metallica,"['east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap']",10905092,80,1991
+The Next Episode,"Dr. Dre, Snoop Dogg","['dance pop', 'europop', 'lilith', 'new wave pop', 'pop rock']",1044572,80,1999
+Lovefool,The Cardigans,"['dance pop', 'girl group', 'pop']",3810368,79,1996
+"What Is Love - 7"" Mix",Haddaway,"['hard rock', 'metal', 'old school thrash', 'rock', 'thrash metal']",28764756,79,1993
+Heart-Shaped Box,Nirvana,"['g funk', 'gangster rap', 'hip hop', 'rap', 'west coast rap']",12622630,79,1993
+Hypnotize - 2014 Remaster,The Notorious B.I.G.,"['g funk', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'west coast rap']",12760650,79,1997
+California Love - Original Version,"2Pac, Roger, Dr. Dre","['lilith', 'new wave pop', 'permanent wave', 'pop rock', 'swedish pop']",1397142,79,1998
+Bitter Sweet Symphony - Remastered 2016,The Verve,"['eurodance', 'europop']",397315,79,1997
+What's Up?,4 Non Blondes,"['grunge', 'permanent wave', 'rock']",20562597,79,1992
+Antologia,Shakira,"['east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap']",10905092,79,1995
+Say My Name,Destiny's Child,"['g funk', 'gangster rap', 'hip hop', 'rap', 'west coast rap']",19322036,78,1999
+Otherside,Red Hot Chili Peppers,"['funk', 'new jack swing', 'p funk', 'post-disco', 'quiet storm']",187147,78,1999
+Oye Mi Amor,Maná,"['g funk', 'gangster rap', 'hip hop', 'rap', 'west coast rap']",12622630,78,1992
+It Was A Good Day,Ice Cube,"['britpop', 'permanent wave', 'rock', 'shoegaze']",2421804,78,1992
+Song 2 - 2012 Remaster,Blur,"['new wave pop', 'pop rock']",552627,78,1997
+オトノケ - Otonoke,Creepy Nuts,['j-pop'],1384894,83,2024
+インフェルノ,Mrs. GREEN APPLE,"['anime rock', 'j-pop', 'j-rock']",4455163,72,2019
+アイドル,YOASOBI,"['j-pop', 'japanese teen pop']",8417188,71,2023
+ただ君に晴れ,ヨルシカ,['j-pop'],2781861,72,2018
+高嶺の花子さん,back number,"['j-pop', 'j-rock']",4952536,71,2014
+美しい鰭,SPITZ,"['classic j-pop', 'j-pop', 'j-rock']",2421582,69,2023
+ライラック,Mrs. GREEN APPLE,"['anime rock', 'j-pop', 'j-rock']",4455163,77,2024
+夜に駆ける,YOASOBI,"['j-pop', 'japanese teen pop']",8417188,70,2021
+だから僕は音楽を辞めた,ヨルシカ,['j-pop'],2781861,67,2019
+花束,back number,"['j-pop', 'j-rock']",4952536,71,2011
+君はロックを聴かない,Aimyon,"['j-acoustic', 'j-pop']",5455261,65,2017
+青と夏,Mrs. GREEN APPLE,"['anime rock', 'j-pop', 'j-rock']",4455163,72,2019
+115万キロのフィルム,OFFICIAL HIGE DANDISM,"['anime', 'anime rock', 'j-pop']",6752011,65,2018
+群青,YOASOBI,"['j-pop', 'japanese teen pop']",8417188,67,2021
+水平線,back number,"['j-pop', 'j-rock']",4952536,70,2023
+晴る,ヨルシカ,['j-pop'],2781861,70,2024
+ケセラセラ,Mrs. GREEN APPLE,"['anime rock', 'j-pop', 'j-rock']",4455163,73,2023
+マリーゴールド,Aimyon,"['j-acoustic', 'j-pop']",5455261,64,2019
+白日,King Gnu,['j-pop'],3622920,64,2020
+新しい恋人達に,back number,"['j-pop', 'j-rock']",4952536,73,2024
+忘れてください,ヨルシカ,['j-pop'],2781861,70,2024
+familie,Mrs. GREEN APPLE,"['anime rock', 'j-pop', 'j-rock']",4455163,76,2024
+愛を伝えたいだとか,Aimyon,"['j-acoustic', 'j-pop']",5455261,63,2017
+Same Blue,OFFICIAL HIGE DANDISM,"['anime', 'anime rock', 'j-pop']",6752011,71,2024
+HAPPY BIRTHDAY,back number,"['j-pop', 'j-rock']",4952536,69,2019
+たぶん,YOASOBI,"['j-pop', 'japanese teen pop']",8417188,64,2021
+Magic,Mrs. GREEN APPLE,"['anime rock', 'j-pop', 'j-rock']",4455163,71,2023
+憂、燦々,ヨルシカ,['j-pop'],2781861,70,2024
+カタオモイ,Aimer,"['anime', 'anime rock', 'j-pixie', 'j-pop', 'j-poprock']",2545085,63,2016
+ハッピーエンド,back number,"['j-pop', 'j-rock']",4952536,65,2016
+怪物,YOASOBI,"['j-pop', 'japanese teen pop']",8417188,65,2021
+僕のこと,Mrs. GREEN APPLE,"['anime rock', 'j-pop', 'j-rock']",4455163,67,2019
+First Love,Hikaru Utada,"['anime', 'classic j-pop', 'j-pop', 'japanese singer-songwriter']",3645418,67,1999
+チェリー,SPITZ,"['classic j-pop', 'j-pop', 'j-rock']",2421582,65,1996
+春泥棒,ヨルシカ,['j-pop'],2781861,63,2021
+逆夢,King Gnu,['j-pop'],3622920,63,2021
+Soranji,Mrs. GREEN APPLE,"['anime rock', 'j-pop', 'j-rock']",4455163,70,2023
+勇者,YOASOBI,"['j-pop', 'japanese teen pop']",8417188,66,2023
+丸ノ内サディスティック,Sheena Ringo,"['j-pop', 'j-rock']",1804250,62,1999
+言って。,ヨルシカ,['j-pop'],2781861,64,2017
+カメレオン,King Gnu,['j-pop'],3622920,63,2022
+ロマンチシズム,Mrs. GREEN APPLE,"['anime rock', 'j-pop', 'j-rock']",4455163,68,2019
+RPG,SEKAI NO OWARI,"['anime', 'j-pop']",2726882,62,2015
+あの夢をなぞって,YOASOBI,"['j-pop', 'japanese teen pop']",8417188,63,2021
+空も飛べるはず,SPITZ,"['classic j-pop', 'j-pop', 'j-rock']",2421582,63,2006
+一途,King Gnu,['j-pop'],3622920,65,2021
+まちがいさがし,SUDA MASAKI,"['anime rock', 'j-pop', 'japanese punk rock']",2087071,61,2019
+アポリア,ヨルシカ,['j-pop'],2781861,68,2024
+UNDEAD,YOASOBI,"['j-pop', 'japanese teen pop']",8417188,70,2024
+Dear,Mrs. GREEN APPLE,"['anime rock', 'j-pop', 'j-rock']",4455163,69,2024
+Várias Queixas,Gilsons,['nova mpb'],407239,71,2019
+CAJU,Liniker,"['nova mpb', 'pop lgbtq+ brasileira']",365912,73,2024
+Ela Vai Voltar (Todos Os Defeitos De Uma Mulher Perfeita),Charlie Brown Jr.,"['brazilian rock', 'hard rock brasileiro', 'rock alternativo brasileiro', 'rock nacional brasileiro']",7522756,68,2005
+Velha Infância - 2004 Digital Remaster,Tribalistas,"['brazilian rock', 'mpb', 'nova mpb']",1258756,69,2002
+Se...,Djavan,"['mpb', 'musica alagoana']",2972986,65,1992
+Depois,Marisa Monte,['mpb'],2262539,65,2011
+Por Enquanto - Ao Vivo,Cássia Eller,"['brazilian rock', 'mpb']",2262238,65,2001
+Amado,Vanessa Da Mata,"['mpb', 'nova mpb']",1256473,63,2007
+Lisboa,"ANAVITÓRIA, Lenine","['folk brasileiro', 'musica tocantinense', 'nova mpb', 'pop lgbtq+ brasileira', 'pop nacional']",6811614,68,2021
+Oceano,Djavan,"['bossa nova', 'brazilian rock', 'manguebeat', 'mpb', 'nova mpb', 'nova musica pernambucana']",822650,64,1989
+Já Sei Namorar - 2004 Digital Remaster,Tribalistas,"['mpb', 'musica alagoana']",2972986,64,2002
+Palavras Ao Vento,Cássia Eller,"['brazilian rock', 'mpb', 'nova mpb']",1258756,64,1999
+Ainda Bem,Marisa Monte,"['brazilian rock', 'mpb']",2262238,64,2011
+Águas De Março,"Elis Regina, Antônio Carlos Jobim",['mpb'],2262539,64,1974
+Eu Te Devoro - Ao Vivo,Djavan,"['bossa nova', 'brazilian jazz', 'mpb', 'samba']",1416621,62,2011
+Pela Luz dos Olhos Teus - Bonus Track,"Miúcha, Antônio Carlos Jobim","['bossa nova', 'brazilian classical', 'brazilian jazz', 'latin classical', 'mpb', 'violao']",765692,64,1977
+Sozinho - Ao Vivo,Caetano Veloso,"['mpb', 'musica alagoana']",2972986,62,1998
+Vilarejo,Marisa Monte,"['bossa nova', 'mpb', 'velha guarda']",70538,63,2006
+Como Nossos Pais,Elis Regina,"['bossa nova', 'brazilian classical', 'brazilian jazz', 'latin classical', 'mpb', 'violao']",765692,61,1976
+Um Amor Puro,Djavan,"['bossa nova', 'mpb', 'samba de roda', 'tropicalia']",2353132,64,1999
+Relicário - Ao Vivo,"Cássia Eller, Nando Reis",['mpb'],2262539,61,2001
+Apenas Mais uma de Amor,Lulu Santos,"['bossa nova', 'brazilian jazz', 'mpb', 'samba']",1416621,66,2000
+"Amor I Love You / Citação: Trecho da Obra Intitulada ""Primo Basilio"" De Eça de Queiroz Declamado por Arnaldo Antunes",Marisa Monte,"['mpb', 'musica alagoana']",2972986,62,2000
+Poema,Ney Matogrosso,"['brazilian rock', 'mpb']",2262238,62,1999
+Meu Abrigo,Melim,"['brazilian rock', 'mpb', 'pop rock brasileiro']",2983348,65,2018
+Se... (Ao Vivo),Djavan,"['brazilian rock', 'mpb', 'pop nacional']",2092017,63,1999
+O Segundo Sol - Ao Vivo,Cássia Eller,['mpb'],2262539,61,2001
+Chão de Giz,Zé Ramalho,"['bossa nova', 'mpb', 'samba', 'velha guarda']",716832,65,1997
+Beija Eu,Marisa Monte,"['mpb', 'nova mpb', 'pop nacional']",5370193,60,1991
+"Na Rua, Na Chuva, Na Fazenda (Casinha De Sapê) - Ao Vivo","Kid Abelha, Lenine","['mpb', 'musica alagoana']",2972986,62,2002
+Boa Sorte / Good Luck (feat. Ben Harper),"Vanessa Da Mata, Ben Harper","['brazilian rock', 'mpb']",2262238,62,2007
+A noite,Tiê,['mpb'],2695794,65,2014
+Pra Você Guardei O Amor,"Nando Reis, Ana Cañas",['mpb'],2262539,64,2009
+Flor de Lis,Djavan,"['mpb', 'pop rock brasileiro', 'rock nacional brasileiro']",1679047,60,1976
+Quem de nós Dois (La Mia Storia Tra Le Dita),Ana Carolina,"['bossa nova', 'brazilian rock', 'manguebeat', 'mpb', 'nova mpb', 'nova musica pernambucana']",822650,59,2001
+Devolva-Me (Ao Vivo),Adriana Calcanhotto,"['mpb', 'nova mpb']",1256473,58,2000
+Tempo Perdido,Legião Urbana,"['neo mellow', 'pastoral']",1022560,69,1986
+O Segundo Sol,Cássia Eller,"['folk brasileiro', 'mpb', 'nova mpb']",712555,60,1999
+Telegrama,Zeca Baleiro,"['brazilian rock', 'mpb', 'pop rock brasileiro']",2983348,58,2002
+Encostar na Tua,Ana Carolina,"['mpb', 'nova mpb']",245318,59,2003
+Eu Te Devoro,Djavan,"['mpb', 'musica alagoana']",2972986,60,1998
+Construção,Chico Buarque,"['mpb', 'musica juiz-forana']",1558724,60,1971
+Samba De Verão,Caetano Veloso,"['bossa nova', 'mpb']",1065889,60,2000
+"Vida Loka, Pt. 1",Racionais MC's,"['boom bap brasileiro', 'brazilian hip hop']",7711116,70,2002
+Ela Vai Voltar (Todos Os Defeitos De Uma Mulher Perfeita),Charlie Brown Jr.,"['brazilian rock', 'hard rock brasileiro', 'rock alternativo brasileiro', 'rock nacional brasileiro']",7522756,68,2005
+Epitáfio,Titãs,"['hard rock brasileiro', 'mpb', 'pop rock brasileiro', 'rock nacional brasileiro', 'rock piauiense']",2291568,66,2001
+Apenas Mais uma de Amor,Lulu Santos,"['brazilian rock', 'mpb', 'pop nacional']",2092017,66,2000
+Aonde Quer Que Eu Vá,Os Paralamas Do Sucesso,"['brazilian rock', 'latin alternative', 'latin rock', 'mpb', 'rock nacional brasileiro']",2339755,65,2000
+Quando o sol se for,Detonautas Roque Clube,"['brazilian rock', 'pop rock brasileiro', 'rock alternativo brasileiro']",1049683,65,2003
+Um Minuto Para O Fim Do Mundo,CPM 22,"['brazilian emo', 'brazilian punk', 'brazilian rock', 'pop rock brasileiro']",772510,65,2005
+Lugar Ao Sol,Charlie Brown Jr.,"['brazilian rock', 'hard rock brasileiro', 'rock alternativo brasileiro', 'rock nacional brasileiro']",7522756,66,2001
+Pra Você Guardei O Amor,"Nando Reis, Ana Cañas","['brazilian rock', 'mpb', 'pop rock brasileiro']",2983348,64,2009
+Desabafo / Deixa Eu Dizer,"Marcelo D2, Claudia","['mpb', 'nova mpb']",245318,64,2008
+Contra o tempo - Ao vivo,Vander Lee,"['boom bap brasileiro', 'brazilian hip hop', 'brazilian rock', 'rap nacional antigo']",1254790,43,2003
+Olhos certos,Detonautas Roque Clube,['mpb'],10207,63,2003
+Só Hoje,Jota Quest,"['mpb', 'musica popular mineira']",309436,63,2002
+Segredos,Frejat,"['brazilian rock', 'pop rock brasileiro', 'rock alternativo brasileiro']",1049683,63,2001
+Um Anjo do Céu,Maskavo,"['brazilian rock', 'mpb', 'pop rock brasileiro', 'rock mineiro', 'rock nacional brasileiro']",2318696,61,2000
+Girassol (Acústico),Cidade Negra,"['mpb', 'rock nacional brasileiro']",1276053,61,2002
+Xote Dos Milagres,Falamansa,"['brazilian reggae', 'rock gaucho']",465087,61,2000
+Admirável Chip Novo,Pitty,"['axe', 'brazilian reggae', 'brazilian rock', 'mpb', 'pagode']",1421335,59,2003
+Encostar na Tua,Ana Carolina,['brazilian reggae'],446516,59,2003
+Mar de gente,O Rappa,"['brazilian rock', 'hard rock brasileiro', 'pop rock brasileiro', 'rock baiano']",2290856,59,2003
+Monalisa - Ao Vivo No Rio De Janeiro / 2006,Jorge Vercillo,"['mpb', 'musica juiz-forana']",1558724,59,2006
+Cabide,Mart'nália,"['brazilian hip hop', 'brazilian reggae', 'brazilian rock', 'latin alternative', 'rock nacional brasileiro']",3562601,58,2006
+Meu Lugar,Arlindo Cruz,"['mpb', 'pagode']",947279,58,2007
+Fico Assim Sem Você,Adriana Partimpim,"['bossa nova', 'mpb', 'pagode', 'samba']",371288,58,2004
+Devolva-Me (Ao Vivo),Adriana Calcanhotto,"['mpb', 'pagode', 'pagode novo', 'samba']",859803,58,2000
+Telegrama,Zeca Baleiro,"['musica infantil', 'musica para criancas']",52653,58,2002
+Natiruts Reggae Power - Ao Vivo,Natiruts,"['bossa nova', 'mpb']",1065889,58,2006
+Você Me Vira A Cabeça (Me Tira Do Sério),Alcione,"['brazilian rock', 'mpb', 'musica maranhense']",1027323,57,2001
+Versos Simples - Ao Vivo,Chimarruts,"['brazilian reggae', 'brazilian rock', 'reggae tuga']",3373185,57,2007
+Além do Horizonte,Jota Quest,"['axe', 'mpb', 'musica maranhense', 'pagode', 'pagode novo', 'samba']",1086264,57,2005
+É Isso Aí (The Blower'S Daughter),"Ana Carolina, Seu Jorge","['brazilian reggae', 'reggae gaucho']",1065644,57,2005
+Reza vela,O Rappa,"['brazilian rock', 'mpb', 'pop rock brasileiro', 'rock mineiro', 'rock nacional brasileiro']",2318696,56,2003
+Meteoro - Ao Vivo,Luan Santana,"['mpb', 'musica juiz-forana']",1558724,56,2009
+Último Romance,Los Hermanos,"['mpb', 'samba-rock']",1632345,56,2003
+Tô nem aí,Luka,"['brazilian hip hop', 'brazilian reggae', 'brazilian rock', 'latin alternative', 'rock nacional brasileiro']",3562601,55,2003
+Cara valente,Maria Rita,"['arrocha', 'sertanejo', 'sertanejo universitario']",8150497,55,2003
+Daqui Pra Frente,NX Zero,"['brazilian rock', 'mpb', 'nova mpb', 'rock alternativo brasileiro', 'rock nacional brasileiro']",931240,55,2008
+Na Sua Estante,Pitty,"['axe', 'pop nacional']",145157,54,2005
+Desenho De Deus,Armandinho,"['bossa nova', 'mpb', 'pagode', 'samba']",781041,54,2007
+Cuide Bem Do Seu Amor,Os Paralamas Do Sucesso,"['brazilian emo', 'brazilian rock', 'pop rock brasileiro', 'rock alternativo brasileiro']",911925,54,2002
+Coisas Que Eu Sei,Danni Carlos,"['brazilian rock', 'hard rock brasileiro', 'pop rock brasileiro', 'rock baiano']",2290856,54,2008
+Ragatanga (Asereje) - Versão Editada,Rouge,"['brazilian reggae', 'reggae gaucho', 'rock gaucho']",1314393,54,2002
+Você Sempre Será,Marjorie Estiano,"['brazilian rock', 'latin alternative', 'latin rock', 'mpb', 'rock nacional brasileiro']",2339755,53,2005
+Shimbalaiê,Maria Gadú,[],101622,53,2009
+Boa Sorte,"Vanessa Da Mata, Ben Harper","['pop lgbtq+ brasileira', 'pop teen brasileiro']",144853,53,2006
+Ainda Gosto Dela,Skank,"['axe', 'mpb', 'pop rock brasileiro']",243394,53,2013
+Heads Will Roll,Yeah Yeah Yeahs,"['alternative dance', 'alternative rock', 'art pop', 'dance-punk', 'garage rock', 'indie rock', 'modern rock', 'neo-synthpop', 'new rave']",1353639,68,2009
+Maps,Yeah Yeah Yeahs,"['alternative dance', 'alternative rock', 'art pop', 'dance-punk', 'garage rock', 'indie rock', 'modern rock', 'neo-synthpop', 'new rave']",1353639,74,2003
+Spitting Off the Edge of the World,"Yeah Yeah Yeahs, Perfume Genius","['alternative dance', 'alternative rock', 'art pop', 'dance-punk', 'garage rock', 'indie rock', 'modern rock', 'neo-synthpop', 'new rave']",1353639,55,2022
+Gold Lion,Yeah Yeah Yeahs,"['art pop', 'chamber pop', 'indie rock', 'indietronica', 'neo-synthpop', 'seattle indie']",395571,50,2006
+Under You,Foo Fighters,"['alternative dance', 'alternative rock', 'art pop', 'dance-punk', 'garage rock', 'indie rock', 'modern rock', 'neo-synthpop', 'new rave']",1353639,48,2023
+Best of You,Foo Fighters,"['alternative metal', 'alternative rock', 'modern rock', 'permanent wave', 'post-grunge', 'rock']",12093941,73,2005
+Learn to Fly,Foo Fighters,"['alternative metal', 'alternative rock', 'modern rock', 'permanent wave', 'post-grunge', 'rock']",12093941,74,1999
+All My Life,Foo Fighters,"['alternative metal', 'alternative rock', 'modern rock', 'permanent wave', 'post-grunge', 'rock']",12093941,70,2002
+Only Happy When It Rains - 2015 - Remaster,Garbage,"['alternative metal', 'alternative rock', 'modern rock', 'permanent wave', 'post-grunge', 'rock']",12093941,0,1995
+I Think I'm Paranoid - 2018 - Remaster,Garbage,"['alternative rock', 'dance rock', 'electronic rock', 'permanent wave']",1240568,0,1998
+Cherry Lips (Go Baby Go!),Garbage,"['alternative rock', 'dance rock', 'electronic rock', 'permanent wave']",1240568,0,2001
+Stupid Girl - 2015 - Remaster,Garbage,"['alternative rock', 'dance rock', 'electronic rock', 'permanent wave']",1240568,1,1995
+Admirável Chip Novo,Pitty,"['alternative rock', 'dance rock', 'electronic rock', 'permanent wave']",1240568,59,2003
+Na Sua Estante,Pitty,"['brazilian rock', 'hard rock brasileiro', 'pop rock brasileiro', 'rock baiano']",2290856,62,2005
+Me Adora,Pitty,"['brazilian rock', 'hard rock brasileiro', 'pop rock brasileiro', 'rock baiano']",2290856,60,2009
+Equalize,Pitty,"['brazilian rock', 'hard rock brasileiro', 'pop rock brasileiro', 'rock baiano']",2290856,66,2003
+Chaise Longue,Wet Leg,"['brazilian rock', 'hard rock brasileiro', 'pop rock brasileiro', 'rock baiano']",2290856,52,2021
+Wet Dream,Wet Leg,"['crank wave', 'indie rock']",657093,53,2021
+Pro Dia Nascer Feliz,Barão Vermelho,"['crank wave', 'indie rock']",657093,50,1983
+Luz Dos Olhos,Samuel Rosa,"['mpb', 'rock nacional brasileiro']",1430902,19,2022
+Outro lugar,Detonautas Roque Clube,['musica popular mineira'],20029,62,2003
+O dia que não terminou,Detonautas Roque Clube,"['brazilian rock', 'pop rock brasileiro', 'rock alternativo brasileiro']",1049683,53,2010
+Dias da Juventude,Terno Rei,"['brazilian rock', 'pop rock brasileiro', 'rock alternativo brasileiro']",1049683,43,2022
+Leve,Mahmundi,"['brazilian rock', 'nova mpb', 'shoegaze brasileiro']",153805,36,2017
+Nada Pra Mim,Fernanda Takai,"['afrofuturismo brasileiro', 'nova mpb', 'nova musica carioca', 'pop lgbtq+ brasileira', 'pop nacional']",108892,22,2017
+Coração Amoleceu,"Mc Don Juan, DJ Yuri Martins",['mpb'],260745,56,2022
+Banco do Carona,"Mc Don Juan, Mc Kako, DJ BOY, Gabb MC, MC Joãozinho VT, MC Marks, MC Vine7, Mc Robs","['arrocha', 'batidao romantico', 'funk carioca', 'funk mtg', 'funk paulista']",5155789,63,2023
+Dialogo,"Yunk Vino, D Santana, Labbel Rec",['funk carioca'],96554,65,2023
+Vlife,"Yunk Vino, WIU, Labbel Rec","['arrocha', 'batidao romantico', 'funk carioca', 'funk mtg', 'funk paulista']",5155789,59,2022
+Empurra Empurra,Mc Dricka,['funk paulista'],1138545,46,2019
+E Nós Tem um Charme Que É da Hora,"Mc Dricka, Novo Império",['funk consciente'],1018092,43,2020
+Party Everyday,Grag Queen,['funk viral'],961884,40,2022
+Milkshake,Grag Queen,['funk paulista'],1123343,28,2023
+Rebel Yell,Billy Idol,"['album rock', 'classic rock', 'dance rock', 'hard rock', 'new romantic', 'new wave', 'new wave pop', 'rock', 'soft rock']",2090650,73,1983
+Your Love,The Outfield,['power pop'],696687,73,1985
+Smells Like Teen Spirit,Nirvana,"['grunge', 'permanent wave', 'rock']",20562597,8,1991
+Sweet Child O' Mine,Guns N' Roses,"['glam metal', 'hard rock', 'rock']",32058569,12,1987
+Last Kiss,Pearl Jam,"['alternative metal', 'alternative rock', 'classic rock', 'grunge', 'hard rock', 'permanent wave', 'rock']",9103340,48,2004
+The Reason,Hoobastank,"['alternative metal', 'funk metal', 'nu metal', 'pop rock', 'post-grunge']",2558494,24,2004
+Have You Ever Seen The Rain,Creedence Clearwater Revival,"['album rock', 'classic rock', 'country rock', 'mellow gold', 'rock', 'southern rock', 'swamp rock']",7036633,84,1970
+Seven Nation Army,The White Stripes,"['alternative rock', 'blues rock', 'detroit rock', 'garage rock', 'modern blues rock', 'permanent wave', 'punk blues', 'rock']",3239030,2,2003
+Jump - 2015 Remaster,Van Halen,"['album rock', 'classic rock', 'hard rock', 'rock']",6244767,76,1984
+Bring Me To Life,Evanescence,['alternative metal'],4836989,1,2003
+Under Pressure,"Queen, David Bowie","['classic rock', 'glam rock', 'rock']",51670019,59,2018
+It's My Life,Bon Jovi,"['art rock', 'classic rock', 'glam rock', 'permanent wave', 'rock']",10829754,79,2000
+Here Without You,3 Doors Down,"['glam metal', 'rock']",14036226,0,2002
+Back In Black,AC/DC,"['alternative metal', 'nu metal', 'post-grunge', 'rock']",4488576,83,1980
+Best Way Out Of Here,Billy Idol,"['australian rock', 'hard rock', 'rock']",29658710,41,2024
+Numb,Linkin Park,"['album rock', 'classic rock', 'dance rock', 'hard rock', 'new romantic', 'new wave', 'new wave pop', 'rock', 'soft rock']",2090650,88,2003
+Every Breath You Take - Remastered 2003,The Police,"['alternative metal', 'nu metal', 'post-grunge', 'rap metal', 'rock']",27278789,1,1983
+Bohemian Rhapsody,Queen,"['album rock', 'classic rock', 'permanent wave', 'rock']",6446644,71,2018
+Listen To Your Heart,Roxette,"['classic rock', 'glam rock', 'rock']",51670019,0,1988
+Viva La Vida,Coldplay,"['europop', 'swedish pop', 'synthpop']",2365427,55,2008
+Don't Stop Believin',Journey,"['permanent wave', 'pop']",54264946,16,1981
+Zombie,The Cranberries,"['album rock', 'classic rock', 'hard rock', 'mellow gold', 'rock', 'soft rock']",5767402,1,1994
+Sweet Dreams (Are Made Of This),Marilyn Manson,"['irish rock', 'pop rock', 'rock']",4584881,0,1995
+Californication,Red Hot Chili Peppers,"['alternative metal', 'hard rock', 'industrial', 'industrial metal', 'industrial rock', 'nu metal', 'post-grunge', 'rock']",4525025,82,1999
+Paranoid,Black Sabbath,"['alternative rock', 'funk metal', 'funk rock', 'permanent wave', 'rock']",21498008,21,1970
+November Rain - 2022 Version,Guns N' Roses,"['album rock', 'alternative metal', 'birmingham metal', 'classic rock', 'hard rock', 'metal', 'rock', 'stoner rock', 'uk doom metal']",8232801,0,2022
+Wherever You Will Go,The Calling,"['glam metal', 'hard rock', 'rock']",32058569,74,2001
+Losing My Religion,R.E.M.,"['neo mellow', 'pop rock']",808397,1,1991
+Wonderwall - Remastered,Oasis,"['alternative rock', 'athens indie', 'permanent wave', 'rock']",4755551,78,1995
+Jet - Underdubbed Mix,"Paul McCartney, Wings","['beatlesque', 'britpop', 'madchester', 'permanent wave', 'rock']",10794605,33,2024
+Like a Stone,Audioslave,"['classic rock', 'mellow gold', 'rock', 'soft rock']",4926487,78,2002
+Tempo Perdido,Legião Urbana,"['album rock', 'art rock', 'classic rock', 'folk rock', 'mellow gold', 'rock', 'singer-songwriter', 'soft rock']",1119844,69,1986
+Mr. Jones,Counting Crows,"['alternative metal', 'alternative rock', 'grunge', 'hard rock', 'nu metal', 'permanent wave', 'post-grunge', 'rock', 'supergroup']",4640643,77,1993
+Take on Me,a-ha,"['mpb', 'rock brasiliense', 'rock nacional brasileiro']",6490608,85,1985
+Easy,Faith No More,"['neo mellow', 'pop rock', 'post-grunge', 'rock']",1807778,61,1992
+In the End,Linkin Park,"['new romantic', 'new wave', 'new wave pop', 'permanent wave', 'synthpop']",2433943,87,2000
+Stairway to Heaven - Remaster,Led Zeppelin,"['alternative metal', 'alternative rock', 'funk metal', 'funk rock', 'hard rock', 'nu metal', 'post-grunge', 'rap metal', 'rock']",1856188,76,1971
+Should I Stay or Should I Go - Remastered,The Clash,"['alternative metal', 'nu metal', 'post-grunge', 'rap metal', 'rock']",27278789,80,1982
+Santeria,Sublime,"['album rock', 'classic rock', 'hard rock', 'rock']",14766700,1,1996
+Chop Suey!,System Of A Down,"['alternative rock', 'permanent wave', 'punk', 'rock']",2857628,3,2001
+"Nothing Else Matters - Live In Rio de Janeiro, Brazil - September 19th, 2015",Metallica,"['rap rock', 'reggae fusion', 'ska mexicano', 'ska punk']",2995466,36,2020
+With Or Without You - Remastered,U2,"['alternative metal', 'nu metal', 'rap metal', 'rock']",11536253,0,1987
+Creep,Radiohead,"['hard rock', 'metal', 'old school thrash', 'rock', 'thrash metal']",28764756,24,1993
+Because the Night - Live Unplugged,"10,000 Maniacs","['irish rock', 'permanent wave', 'rock']",12623573,55,1993
+Toxicity,System Of A Down,"['alternative rock', 'art rock', 'melancholia', 'oxford indie', 'permanent wave', 'rock']",10738634,83,2001
+Plush,Stone Temple Pilots,"['ectofolk', 'lilith', 'new wave', 'new wave pop', 'pop rock', 'singer-songwriter']",391938,64,1992
+Bitter Taste,Billy Idol,"['alternative metal', 'nu metal', 'rap metal', 'rock']",11536253,1,2021
+Welcome to My Life,Simple Plan,"['alternative metal', 'alternative rock', 'classic rock', 'grunge', 'hard rock', 'nu metal', 'post-grunge', 'rock']",3614574,69,2004
+Over Each Other,Linkin Park,"['alternative metal', 'nu metal', 'post-grunge', 'rap metal', 'rock']",27278789,69,2024
+Dystopia,ONE OK ROCK,"['j-pop', 'j-rock']",5459071,44,2024
+Ohio All The Time,Momma,"['bubblegrunge', 'indie rock', 'small room']",68014,35,2024
+Stay In Your Grave (feat. Alice Cooper),"The Black Keys, Alice Cooper","['alternative rock', 'blues rock', 'garage rock', 'indie rock', 'indietronica', 'modern blues rock', 'modern rock', 'punk blues', 'rock']",4045586,50,2024
+"One Last Dance (From ""Venom: The Last Dance"")","Tom Morello, grandson, Roman Morello","['album rock', 'classic rock', 'detroit rock', 'glam metal', 'glam rock', 'hard rock', 'metal', 'protopunk', 'rock']",3783114,44,2024
+The Vegas Suite,Pixies,['modern alternative rock'],197409,44,2024
+Jerkin',Amyl and The Sniffers,"['modern alternative rock', 'modern rock', 'pov: indie', 'rock']",1168924,47,2024
+The Beginning Of The End (feat. DMA'S),"Courteeners, DMA'S",[],737,40,2024
+What If...?,HIMALAYAS,"['alternative rock', 'boston rock', 'permanent wave', 'rock']",3123217,33,2024
+Haunting You,Badflower,"['australian garage punk', 'melbourne punk']",369771,40,2024
+Chameleon,trauma ray,"['britpop', 'english indie rock', 'manchester indie']",333372,29,2024
+So Numb,Glimmer,"['australian indie', 'australian surf rock']",249757,21,2024
+Cherish,New Age Thief,"['modern alternative rock', 'welsh indie']",58067,20,2024
+Full Bloom,311,"['modern alternative rock', 'post-grunge']",329508,41,2024
+Meditations,Cold War Kids,"['american shoegaze', 'doomgaze', 'fort worth indie', 'grungegaze', 'nu gaze', 'texasgaze', 'zoomergaze']",42403,43,2024
+Hiding in Plain Sight,Manic Street Preachers,['new york shoegaze'],1094,35,2024
+Afterlife,Sharon Van Etten,[],840,48,2024
+arghHhh!,shego,"['alternative metal', 'alternative rock', 'funk metal', 'funk rock', 'nu metal', 'pop rock', 'rap rock', 'reggae fusion']",1085962,37,2024
+"Killer (From The ""American Psycho"" Comic Series Soundtrack)",Weathers,"['indie rock', 'modern alternative rock', 'modern rock', 'piano rock', 'stomp and holler']",889441,24,2024
+You Already Know,MIYAVI,"['britpop', 'permanent wave', 'rock', 'welsh rock']",701101,32,2024
+Rest In Pieces,The Rasmus,"['art pop', 'chamber pop', 'indie rock', 'melancholia', 'new jersey indie', 'singer-songwriter']",539605,37,2024
+Will You Love Me When I’m Dead,Amira Elfeky,['tontipop'],32308,48,2024
+Happiest,Sueco,['pov: indie'],304480,41,2024
+SORRY,Kami Kehoe,['visual kei'],308582,34,2024
+Bad Omen,The Haunt,"['finnish alternative rock', 'funk metal']",505838,31,2024
+Savior With A Razor (feat. Slash),"Beth Hart, Slash",[],108039,39,2024
+Conspiracy,The Luka State,['cali rap'],628276,24,2024
+I Don't Believe You,LEAP,[],120633,28,2024
+Newsnight,Kid Kapichi,[],57486,29,2024
+Kept Me Alive,Grayscale,['modern blues'],431537,33,2024
+Change Your Mind,Kids In Glass Houses,"['hard rock', 'rock']",3113526,26,2024
+Annulment,Head Automatica,"['english indie rock', 'modern alternative rock']",38324,18,2024
+SPIDER,total tommy,[],16090,21,2024
+To live in a different way,Love Is Noise,"['british alternative rock', 'english indie rock', 'modern alternative rock']",56226,21,2024
+Mirror Mirror,chokecherry,"['anthem emo', 'pop punk']",93867,22,2024
+Don't Let Me Go,KO KO MO,"['british alternative rock', 'uk pop punk', 'welsh rock']",56876,22,2024
+Mockingbird,Larkin Poe,"['emo', 'post-hardcore', 'screamo']",58538,26,2024
+No Children,Jack Kays,[],2077,36,2024
+Always Gonna Be Like This,robbietheused,[],12168,22,2024
+GODDESS,SCARLET,[],28915,31,2024
+Sleep Forever,Massive Wagons,"['nantes indie', 'rock alternatif francais']",24223,26,2024
+Don't Try To Talk,Le Shiv,"['modern blues', 'modern blues rock']",254693,29,2024
+Save Your Breath,True North,['cincinnati rap'],171936,30,2024
+Messages,Pom Pom Squad,[],7880,28,2024
+pull me under,senses,['slayer'],24642,27,2024
+ETA,NewJeans,"['k-pop', 'k-pop girl group']",9336795,79,2023
+Magnetic,ILLIT,['5th gen k-pop'],1609369,84,2024
+Super Shy,NewJeans,"['k-pop', 'k-pop girl group']",9336795,79,2023
+Perfect Night,LE SSERAFIM,['k-pop girl group'],5961211,79,2023
+How Sweet,NewJeans,"['k-pop', 'k-pop girl group']",9336795,79,2024
+ANTIFRAGILE,LE SSERAFIM,['k-pop girl group'],5961211,73,2023
+Supernatural,NewJeans,"['k-pop', 'k-pop girl group']",9336795,79,2024
+I AM,IVE,['k-pop girl group'],4683355,73,2023
+OMG,NewJeans,"['k-pop', 'k-pop girl group']",9336795,78,2023
+Sticky,KISS OF LIFE,"['5th gen k-pop', 'k-pop girl group']",1416787,78,2024
+Ditto,NewJeans,"['k-pop', 'k-pop girl group']",9336795,77,2022
+Queencard,(G)I-DLE,['k-pop girl group'],9833370,73,2023
+Hype Boy,NewJeans,"['k-pop', 'k-pop girl group']",9336795,77,2022
+LOVE DIVE,IVE,['k-pop girl group'],4683355,71,2022
+New Jeans,NewJeans,"['k-pop', 'k-pop girl group']",9336795,76,2023
+"Eve, Psyche & The Bluebeard’s wife",LE SSERAFIM,['k-pop girl group'],5961211,71,2023
+Attention,NewJeans,"['k-pop', 'k-pop girl group']",9336795,74,2022
+After LIKE,IVE,['k-pop girl group'],4683355,71,2022
+Bubble Gum,NewJeans,"['k-pop', 'k-pop girl group']",9336795,74,2024
+EASY,LE SSERAFIM,['k-pop girl group'],5961211,76,2024
+Cool With You,NewJeans,"['k-pop', 'k-pop girl group']",9336795,73,2023
+Seven (feat. Latto) (Explicit Ver.),"Jung Kook, Latto",['k-pop'],16263301,85,2023
+Hurt,NewJeans,['trap queen'],1800332,71,2022
+Mantra,JENNIE,"['k-pop', 'k-pop girl group']",9336795,88,2024
+Right Now,NewJeans,['k-pop'],7593403,71,2024
+APT.,"ROSÉ, Bruno Mars","['k-pop', 'k-pop girl group']",9336795,93,2024
+Cookie,NewJeans,['k-pop'],7546524,70,2022
+Touch,KATSEYE,"['dance pop', 'pop']",60992125,86,2024
+ASAP,NewJeans,"['k-pop', 'k-pop girl group']",9336795,69,2023
+CRAZY,LE SSERAFIM,['5th gen k-pop'],591244,80,2024
+Zero,NewJeans,"['k-pop', 'k-pop girl group']",9336795,62,2023
+Moonlit Floor (Kiss Me),LISA,['k-pop girl group'],5961211,89,2024
+GODS,"League of Legends, NewJeans","['k-pop', 'k-pop girl group']",9336795,72,2023
+Midas Touch,KISS OF LIFE,['k-pop'],9294453,74,2024
+Our Night is more beautiful than your Day,NewJeans,"['speedrun', 'video game music']",1909172,61,2023
+Smart,LE SSERAFIM,"['k-pop', 'k-pop girl group']",9336795,76,2024
+Get Up,NewJeans,"['5th gen k-pop', 'k-pop girl group']",1416787,69,2023
+FEARLESS (2023 Ver.),LE SSERAFIM,"['k-pop', 'k-pop girl group']",9336795,68,2023
+Beautiful Restriction,NewJeans,['k-pop girl group'],5961211,57,2023
+UNFORGIVEN (feat. Nile Rodgers),"LE SSERAFIM, Nile Rodgers","['k-pop', 'k-pop girl group']",9336795,71,2023
