@@ -70,7 +70,9 @@ with open(OUTPUT_FILE_NAME, "w", encoding="utf-8", newline='') as file:
         
     #     writer.writerow([name, artists,genres_list[index],followers_list[index],popularity,year])
 
-df = pd.read_csv(r'E:\IA Roger Roger\IA-Spotify\track_info.csv')
+#Mudar caminho dependendo daonde o csv estiver instalado
+# df = pd.read_csv(r'E:\IA Roger Roger\IA-Spotify\track_info.csv')
+df = pd.read_csv(r'/Users/thiagoliporace/Documents/codigos apple academy/IA-Spotify/track_info.csv')
 df.head(5)
 
 df['genres'] = df['genres'].apply(eval)
