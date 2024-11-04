@@ -40,7 +40,7 @@ with open(OUTPUT_FILE_NAME, "w", encoding="utf-8", newline='') as file:
     artists_ids = []
 
     # write header column names
-    writer.writerow(["track", "artist","genres","followers","popularity","year"])
+    # writer.writerow(["track", "artist","genres","followers","popularity","year"])
 
     # extract name and artist
     # for index, track in enumerate(tracks):
@@ -71,8 +71,8 @@ with open(OUTPUT_FILE_NAME, "w", encoding="utf-8", newline='') as file:
     #     writer.writerow([name, artists,genres_list[index],followers_list[index],popularity,year])
 
 #Mudar caminho dependendo daonde o csv estiver instalado
-# df = pd.read_csv(r'E:\IA Roger Roger\IA-Spotify\track_info.csv')
-df = pd.read_csv(r'/Users/thiagoliporace/Documents/codigos apple academy/IA-Spotify/track_info.csv')
+df = pd.read_csv(r'E:\IA Roger Roger\IA-Spotify\track_info.csv')
+# df = pd.read_csv(r'/Users/thiagoliporace/Documents/codigos apple academy/IA-Spotify/track_info.csv')
 df.head(5)
 
 df['genres'] = df['genres'].apply(eval)
@@ -104,5 +104,5 @@ y_pred = lr.predict(X_test)
 
 r2 = r2_score(y_test, y_pred)
 
-print(f'R^2 Score: {r2}')
+print(f'R^2 Score: {r2:.3f}')
     
