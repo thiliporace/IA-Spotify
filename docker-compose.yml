@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    env_file:
+      - variables.env  # Isso carrega as variáveis do arquivo .env para o contêiner
+    ports:
+      - "5000:5000"  # Se precisar expor uma porta (ajuste conforme necessário)
