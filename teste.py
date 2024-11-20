@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import spotipy
 from dotenv import load_dotenv
 from spotipy.oauth2 import SpotifyClientCredentials
+
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score, make_scorer, mean_squared_error
@@ -44,10 +45,8 @@ tracks = session.playlist_tracks(playlist_uri)["items"]
     
 #     artists_ids = []
 
-    # write header column names
     # writer.writerow(["track", "artist","genres","followers","popularity","year"])
 
-    # extract name and artist
     # for index, track in enumerate(tracks):
     #     name = track["track"]["name"]
     #     artists = ", ".join(
@@ -68,7 +67,7 @@ tracks = session.playlist_tracks(playlist_uri)["items"]
 
     #     genres_list = []
     #     followers_list = []
-    #     # write to csv
+    #
     #     for artist in artists_data["artists"]:
     #         genres_list.append(artist["genres"])
     #         followers_list.append(artist["followers"]["total"])
@@ -90,8 +89,8 @@ del df_filtered['genres']
 del df_filtered['followers']
 del df_filtered['track']
 del df_filtered['artist']
-# print(df_filtered)
 
+# Plota os dados
 # plt.scatter(df_filtered['year'], df_filtered['popularity'])
 # plt.xlabel('Year')
 # plt.ylabel('Popularity')
@@ -115,7 +114,7 @@ print(f'R^2 Score: {r2:.3f}')
 r2_scores = cross_val_score(lr, X_train, y_train, cv=10, scoring=make_scorer(r2_score))
 print("R^2 Score: %0.3f +/- %0.3f" % (r2_scores.mean(), r2_scores.std() * 2), '\n')
 
-# Cross-validation com métricas adicionais
+# Cross-validation
 for metric, scorer in [("R^2", make_scorer(r2_score)),
                        ("Mean Squared Error", make_scorer(mean_squared_error, greater_is_better=False))]:
     scores = cross_val_score(lr, X_train, y_train, cv=4, scoring=scorer)
