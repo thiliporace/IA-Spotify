@@ -7,11 +7,16 @@ import matplotlib.pyplot as plt
 import spotipy
 from dotenv import load_dotenv
 from spotipy.oauth2 import SpotifyClientCredentials
-from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import classification_report
+from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import r2_score
+from sklearn.metrics import r2_score, make_scorer, mean_squared_error
+
+import os
+file_path = r'/app/track_info.csv'
+if os.path.exists(file_path):
+    print("Arquivo encontrado")
+else:
+    print("Arquivo não encontrado")
 
 load_dotenv()
 
@@ -34,10 +39,10 @@ else:
 
 tracks = session.playlist_tracks(playlist_uri)["items"]
 
-with open(OUTPUT_FILE_NAME, "w", encoding="utf-8", newline='') as file:
-    writer = csv.writer(file)
+# with open(OUTPUT_FILE_NAME, "w", encoding="utf-8", newline='') as file:
+#     writer = csv.writer(file)
     
-    artists_ids = []
+#     artists_ids = []
 
     # write header column names
     # writer.writerow(["track", "artist","genres","followers","popularity","year"])
@@ -71,7 +76,8 @@ with open(OUTPUT_FILE_NAME, "w", encoding="utf-8", newline='') as file:
     #     writer.writerow([name, artists,genres_list[index],followers_list[index],popularity,year])
 
 #Mudar caminho dependendo daonde o csv estiver instalado
-df = pd.read_csv(r'E:\IA Roger Roger\IA-Spotify\track_info.csv')
+# df = pd.read_csv(r'E:\IA Roger Roger\IA-Spotify\track_info.csv')
+df = pd.read_csv('/app/track_info.csv')
 # df = pd.read_csv(r'/Users/thiagoliporace/Documents/codigos apple academy/IA-Spotify/track_info.csv')
 df.head(5)
 
@@ -105,4 +111,13 @@ y_pred = lr.predict(X_test)
 r2 = r2_score(y_test, y_pred)
 
 print(f'R^2 Score: {r2:.3f}')
+
+r2_scores = cross_val_score(lr, X_train, y_train, cv=10, scoring=make_scorer(r2_score))
+print("R^2 Score: %0.3f +/- %0.3f" % (r2_scores.mean(), r2_scores.std() * 2), '\n')
+
+# Cross-validation com métricas adicionais
+for metric, scorer in [("R^2", make_scorer(r2_score)),
+                       ("Mean Squared Error", make_scorer(mean_squared_error, greater_is_better=False))]:
+    scores = cross_val_score(lr, X_train, y_train, cv=4, scoring=scorer)
+    print(f"{metric}: %0.3f +/- %0.3f" % (scores.mean(), scores.std() * 2))
     
