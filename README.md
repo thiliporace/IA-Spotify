@@ -20,8 +20,6 @@ teste.py
 
 ## Para buildar no computador:
 
-### docker build -t nome-da-imagem .
+docker build -t nome-da-imagem .
 
-### docker run -p 5000:5000 nome-da-imagem
-
-Link para vídeo do Youtube: https://www.youtube.com/watch?v=wL9tsot7Fd8
+docker run -p 5000:5000 nome-da-imagem
