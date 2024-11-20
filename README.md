@@ -2,9 +2,9 @@
 
 ## Integrantes:
 
-Thiago Leandro Liporace, 10395816
-Laura Abi Daud, 10395586
-Alix Sanches, 10395951
+Thiago Leandro Liporace, 10395816 <br>
+Laura Abi Daud, 10395586 <br>
+Alix Sanches, 10395951 <br>
 
 ## Link do vídeo de apresentação:
 
